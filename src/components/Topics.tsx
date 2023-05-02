@@ -16,8 +16,8 @@ const Topics = ({ selectedTopic, allTopics, dispatch }: ITopics) => {
         />
       ))}
     </TopicsContainer>
-  );
-};
+  )
+}
 
 export default Topics
 Topics.defaultProps = TopicsProps

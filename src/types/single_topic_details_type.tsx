@@ -8,7 +8,7 @@ export interface ITopicDetails {
     negative: number
   }
 
-//Topics FILE
+//Topics file
 export interface ITopics {
     key?: string | number,
     selectedTopic: ITopic,

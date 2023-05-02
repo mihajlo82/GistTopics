@@ -25,9 +25,7 @@ const reducer = (state = intialState, action: ACTION_TYPE): IInitialState => {
 const useTopicReducer = () => {
   const [state, dispatch] = useReducer(reducer, intialState)
 
-  useEffect(() => {
-    getData()
-  }, [])
+  useEffect(() =>  getData(), [])
 
   const getData = useCallback(() => {
     axios
