@@ -1,3 +1,4 @@
+import React from 'react'
 import { MainContainer } from '../styles/Styles'
 import SingleTopicDetails from './SingleTopicDetails'
 import useTopicReducer from './reducer/useTopicReducer'

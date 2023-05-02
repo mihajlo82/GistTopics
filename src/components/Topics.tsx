@@ -1,3 +1,4 @@
+import React from 'react'
 import { TopicsContainer } from '../styles/Styles'
 import { ITopics } from '../types/single_topic_details_type';
 import { TopicsProps } from '../utils/defaultProps/defaults'

@@ -1,3 +1,4 @@
+import React from 'react'
 import { useEffect, useState } from 'react'
 import { getScreenPositions, getColor, getFontSize } from '../utils/function_generator'
 import { ACTION_REDUCER } from '../constants/data_constants'
