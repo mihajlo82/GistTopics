@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from './components/Main'
+import TopicsView from './components/main/TopicsView'
 
-const App = () => <Main />
+const App = () => <TopicsView />
 export default App;

@@ -1,10 +1,10 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { getScreenPositions, getColor, getFontSize } from '../utils/function_generator'
-import { ACTION_REDUCER } from '../constants/data_constants'
-import { CustomParagraph } from '../styles/Styles'
-import { SingleParagraphProps, SingleParagraphStyle } from '../utils/defaultProps/defaults'
-import { IPosition, ISingleParagraph, IStyle } from '../types/single_paragraph_type'
+import { getScreenPositions, getColor, getFontSize } from '../../../../utils/function_generator'
+import { ACTION_REDUCER } from '../../../../constants/data_constants'
+import { CustomParagraph } from './styles'
+import { SingleParagraphProps, SingleParagraphStyle } from '../../../../utils/defaultProps/defaults'
+import { IPosition, ISingleParagraph, IStyle } from './types'
 
 const SingleParagraph = ({ selectedTopic, topic, index, dispatch }: ISingleParagraph) => {
   const [styleParagraph, setStyleParagraph] = useState<IStyle>(SingleParagraphStyle)

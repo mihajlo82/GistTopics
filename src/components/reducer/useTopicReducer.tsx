@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useCallback, useEffect, useReducer } from 'react'
 import { ACTION_REDUCER,  ERROR_MESSAGE,  RESPONSE_API } from '../../constants/data_constants.js'
 import { FETCH_URL } from '../../constants/data_constants.js'
-import { ACTION_TYPE, IInitialState } from '../../types/types.js'
+import { ACTION_TYPE, IInitialState } from './types.js'
 
 const intialState: IInitialState = {
   topics: [],

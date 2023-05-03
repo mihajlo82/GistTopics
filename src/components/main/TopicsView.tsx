@@ -1,10 +1,10 @@
 import React from 'react'
-import { MainContainer } from '../styles/Styles'
-import SingleTopicDetails from './SingleTopicDetails'
-import useTopicReducer from './reducer/useTopicReducer'
-import Topics from './Topics'
+import { MainContainer } from './styles'
+import SingleTopicDetails from './singleTopicDetails/SingleTopicDetails'
+import useTopicReducer from '../reducer/useTopicReducer'
+import Topics from './topics/Topics'
 
-const Main = () => {
+const TopicsView = () => {
   const { state, dispatch } = useTopicReducer()
 
   return (
@@ -24,4 +24,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default TopicsView

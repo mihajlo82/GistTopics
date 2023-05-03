@@ -1,8 +1,8 @@
 import React from 'react'
-import { TopicsContainer } from '../styles/Styles'
-import { ITopics } from '../types/single_topic_details_type';
-import { TopicsProps } from '../utils/defaultProps/defaults'
-import SingleParagraph from './SingleParagraph'
+import { TopicsContainer } from './styles'
+import { TopicsProps } from '../../../utils/defaultProps/defaults'
+import SingleParagraph from './singleParagraph/SingleParagraph'
+import { ITopics } from './types';
 
 const Topics = ({ selectedTopic, allTopics, dispatch }: ITopics) => {
   return (

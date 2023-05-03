@@ -1,4 +1,4 @@
-import { ITopic } from "./types"
+import { ITopic } from "../../../reducer/types"
 
 export interface IPosition {
   x: number,

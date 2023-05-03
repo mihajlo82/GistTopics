@@ -1,7 +1,7 @@
 import React from 'react'
-import { ParagraphDetails, TopicsDetailsContainer } from '../styles/Styles'
-import { ITopicDetails } from '../types/single_topic_details_type';
-import { SingleTopicDetailsProps } from '../utils/defaultProps/defaults'
+import { ParagraphDetails, TopicsDetailsContainer } from './styles'
+import { ITopicDetails } from './types';
+import { SingleTopicDetailsProps } from '../../../utils/defaultProps/defaults'
 
 const SingleTopicDetails = ({ label, volume, positive, neutral, negative }: ITopicDetails) => {
   return (
