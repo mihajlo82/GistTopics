@@ -6,7 +6,7 @@ import { ITopics } from './types';
 
 const Topics = ({ selectedTopic, allTopics, dispatch }: ITopics) => {
   return (
-    <TopicsContainer>
+    <TopicsContainer role='topics'>
       {allTopics?.map((topic, index) => (
         <SingleParagraph
           key={topic.id}

@@ -5,7 +5,7 @@ import { SingleTopicDetailsProps } from '../../../utils/defaultProps/defaults'
 
 const SingleTopicDetails = ({ label, volume, positive, neutral, negative }: ITopicDetails) => {
   return (
-    <TopicsDetailsContainer isSideBorderShown={label}>
+    <TopicsDetailsContainer isSideBorderShown={label} role='topicDetails'>
       <ParagraphDetails> Information on topic "{label}" </ParagraphDetails>  <br />
       <ParagraphDetails> Total Mentions: {volume} </ParagraphDetails> <br />
       <ParagraphDetails color={1}> Positive Mentions: {positive} </ParagraphDetails>

@@ -21,6 +21,7 @@ const SingleParagraph = ({ selectedTopic, topic, index, dispatch }: ISingleParag
 
   return (
     <CustomParagraph
+      role='customParagraph'
       styleParagraph={styleParagraph}
       onClick={() => dispatch({ type: ACTION_REDUCER.SELECT_TOPIC, payload: topic })}
     > {topic.label}

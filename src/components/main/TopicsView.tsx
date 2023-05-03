@@ -8,7 +8,7 @@ const TopicsView = () => {
   const { state, dispatch } = useTopicReducer()
 
   return (
-    <MainContainer>
+    <MainContainer role='topicsView'>
       <Topics selectedTopic={state?.selectedTopic} allTopics={state?.topics} dispatch={dispatch} />
 
       {state?.selectedTopic?.id && 
